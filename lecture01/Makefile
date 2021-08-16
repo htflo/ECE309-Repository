@@ -8,4 +8,4 @@ clean:
 	rm -f $(EXE) *~ logfile.txt
 
 %: %.cpp
-	$(CXX) -o $@ $< 
+	g++ -o $@ $< 
