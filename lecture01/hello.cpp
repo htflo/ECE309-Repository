@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct Rectangle {
+class Rectangle {
 private:
   int width; // member variable
    int length;
